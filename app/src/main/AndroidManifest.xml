@@ -13,31 +13,26 @@
         android:theme="@style/Theme.QuickNote"
         tools:targetApi="31">
         <activity
-            android:name=".VerListaActivity"
+            android:name=".view.ViewListActivity"
             android:exported="false" />
         <activity
-            android:name=".VerTextoActivity"
+            android:name=".view.ViewNoteActivity"
             android:exported="false" />
         <activity
-            android:name=".CrearListaActivity"
+            android:name=".create.CreateListActivity"
             android:exported="false" />
         <activity
-            android:name=".CrearTextoActivity"
+            android:name=".create.CreateNoteActivity"
             android:exported="false" />
         <activity
-            android:name=".PrincipalActivity"
+            android:name=".general.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistroActivity"
+            android:name=".authentication.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.theme.RegistroActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.QuickNote">
+            android:name=".authentication.SignInActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
